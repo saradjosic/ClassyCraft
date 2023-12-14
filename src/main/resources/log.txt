@@ -1,0 +1,9 @@
+[ERROR] [12.12.2023. 23:55] null
+[ERROR] [12.12.2023. 23:55] null
+[ERROR] [null] null
+[WARNING] [null] null
+[ERROR] [null] null
+[ERROR] [null] null
+[WARNING] [null] null
+[ERROR] [null] null
+[ERROR] [14.12.2023. 18:18] null
