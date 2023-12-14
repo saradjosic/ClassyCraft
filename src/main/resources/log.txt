@@ -6,4 +6,33 @@
 [ERROR] [null] null
 [WARNING] [null] null
 [ERROR] [null] null
-[ERROR] [14.12.2023. 18:18] null
+[ERROR] [null] null
+[WARNING] [null] null
+[WARNING] [null] null
+[ERROR] [null] null
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] null
+[ERROR] [null] null
+[ERROR] [null] null
+[ERROR] [null] null
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] ProjectExplorer ne moze biti obrisan
+[ERROR] [null] null
+[ERROR] [null] null
+[ERROR] [null] null
+[ERROR] [null] null
+[NOTIFICATION] [null] SELECTED_NODEProject Explorer
+[NOTIFICATION] [null] SELECTED_NODEProject 1
+[ERROR] [null] null
+[WARNING] [null] null
+[ERROR] [null] null
+[ERROR] [14.12.2023. 19:53] null

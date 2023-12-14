@@ -10,8 +10,8 @@ public class ProjectFactory extends ClassyNodeFactory{
         return new Project(parent);
     }
 
-   // @Override
-   // public ClassyNode createNode(ClassyNode parent, String name) {
-    //    return new Project(name,parent);
-   // }
+    @Override
+    public ClassyNode createNode(ClassyNode parent, String name) {
+        return new Project(name,parent);
+    }
 }

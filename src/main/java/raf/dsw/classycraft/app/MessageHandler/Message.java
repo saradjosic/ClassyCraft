@@ -89,6 +89,12 @@ public class Message{
 
     }
 
+    public Message( EventType eventType,Message message) {
+
+        this.eventType = eventType;
+        this.message = message;
+    }
+
     @Override
     public String toString() {
 
@@ -98,4 +104,12 @@ public class Message{
 
     }
 
+    public Message(MessageTypes type, LocalDateTime timestamp,String text) {
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd.MM.yyyy. HH:mm");
+        LocalDateTime now = LocalDateTime.now();
+
+        this.type = type;
+        this.timestamp=dtf.format(now);
+        this.text = text;
+    }
 }

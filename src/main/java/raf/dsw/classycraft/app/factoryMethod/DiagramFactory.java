@@ -11,8 +11,8 @@ public class DiagramFactory extends ClassyNodeFactory{
         return new Diagram(parent);
     }
 
- //   @Override
-   // public ClassyNode createNode(ClassyNode parent, String name) {
-      //  return new Package(name,parent);
-   // }
+   @Override
+    public ClassyNode createNode(ClassyNode parent, String name) {
+        return new Package(name,parent);
+    }
 }

@@ -11,10 +11,10 @@ public class PackageFactory extends ClassyNodeFactory{
         return new Package(parent);
     }
 
-  //  @Override
-   // public ClassyNode createNode(ClassyNode parent, String name) {
-   //     return new Package(name,parent);
- //   }
+    @Override
+    public ClassyNode createNode(ClassyNode parent, String name) {
+        return new Package(name,parent);
+   }
 
     /*
     @Override

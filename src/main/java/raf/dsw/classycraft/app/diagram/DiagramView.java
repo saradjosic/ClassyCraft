@@ -2,7 +2,9 @@ package raf.dsw.classycraft.app.diagram;
 
 
 import raf.dsw.classycraft.app.repository.apstrakcija.ClassyNode;
+import raf.dsw.classycraft.app.repository.apstrakcija.ClassyNodeComposite;
 import raf.dsw.classycraft.app.repository.apstrakcija.ClassyNodeLeaf;
+import raf.dsw.classycraft.app.repository.implementacija.Diagram;
 import raf.dsw.classycraft.app.repository.implementacija.Project;
 import raf.dsw.classycraft.app.repository.implementacija.Package;
 

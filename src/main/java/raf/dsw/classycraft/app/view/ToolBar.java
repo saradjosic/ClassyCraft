@@ -15,6 +15,8 @@ public class ToolBar extends JToolBar{
         add(MainFrame.getInstance().getActionManager().getRenameAction());
         add(MainFrame.getInstance().getActionManager().getDeleteAction());
         add(MainFrame.getInstance().getActionManager().getAuthorAction());
+
+
     }
 
     public JButton add(Action a){

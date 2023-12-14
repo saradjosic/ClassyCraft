@@ -4,7 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import raf.dsw.classycraft.app.observer.ISubscriber;
 
-import java.lang.ref.PhantomReference;
+import raf.dsw.classycraft.app.observer.IPublisher;
+import raf.dsw.classycraft.app.MessageHandler.IMessagePublisher;
 import java.util.ArrayList;
 import java.util.List;
 @Setter
@@ -16,6 +17,7 @@ public class MessageGenerator implements IMessagePublisher{
 
     public MessageGenerator() {
         this.messageSubscribers = new ArrayList<>();
+
     }
 
     @Override
@@ -46,6 +48,7 @@ public class MessageGenerator implements IMessagePublisher{
     }
     @Override
     public void generateMessage(Message message) {
+        notifySubscribers(message);
 
 /*
 
@@ -67,7 +70,7 @@ public class MessageGenerator implements IMessagePublisher{
                 new Message("Selectovani node");
 
 */
-        notifySubscribers(message);
+
     }
 
 

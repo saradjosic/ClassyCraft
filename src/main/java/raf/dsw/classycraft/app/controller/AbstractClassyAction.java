@@ -37,6 +37,27 @@ public abstract class AbstractClassyAction extends AbstractAction{
     }
 
 
+
+    public Icon loadIcon2(String ime){
+        Icon icon=null;
+        URL ImageURL=getClass().getResource(ime);
+
+        if(ImageURL!=null){
+
+
+            Image img = new ImageIcon(ImageURL).getImage();
+            Image newImg = img.getScaledInstance(28,28,Image.SCALE_DEFAULT);
+
+            icon=new ImageIcon(newImg);//newimg!!!!!!!
+
+        } else
+        {
+            System.err.println("Slika nono"+ime);
+        }
+        return icon;
+    }
+
+
     public ImageIcon loadPicture(String name,int width, int height){//funkcija za ucitavanje slike iz resursa
         ImageIcon picture=null;
         URL ImageURL =getClass().getResource(name);

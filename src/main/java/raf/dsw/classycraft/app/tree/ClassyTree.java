@@ -1,6 +1,7 @@
 package raf.dsw.classycraft.app.tree;
 
 import raf.dsw.classycraft.app.observer.IPublisher;
+import raf.dsw.classycraft.app.repository.apstrakcija.ClassyNode;
 import raf.dsw.classycraft.app.repository.implementacija.ProjectExplorer;
 import raf.dsw.classycraft.app.tree.model.ClassyTreeItem;
 import raf.dsw.classycraft.app.tree.view.ClassyTreeView;
@@ -13,7 +14,6 @@ public interface ClassyTree extends IPublisher{
 
     void addChild(ClassyTreeItem parent,String naziv, String koji);
     ClassyTreeView returnTree();
-
 
 
 

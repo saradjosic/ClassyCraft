@@ -11,6 +11,6 @@ public abstract class ClassyNodeFactory{
     }
     abstract public ClassyNode createChild(ClassyNode parent);
 
-    //abstract public ClassyNode createNode(ClassyNode parent,String name);
+    abstract public ClassyNode createNode(ClassyNode parent,String name);
 
 }

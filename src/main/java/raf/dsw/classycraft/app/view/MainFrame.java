@@ -44,6 +44,8 @@ public class MainFrame extends JFrame implements ISubscriber{
         MyMenyBar menu=new MyMenyBar();
         setJMenuBar(menu);
 
+
+
         ToolBar toolbar=new ToolBar();
         add(toolbar, BorderLayout.NORTH);
 
@@ -68,6 +70,8 @@ public class MainFrame extends JFrame implements ISubscriber{
 
     }
 
+
+
     public static MainFrame getInstance(){
         if(instance==null){
             instance = new MainFrame();
@@ -82,7 +86,7 @@ public class MainFrame extends JFrame implements ISubscriber{
         if(notification instanceof Message){
             Message poruka = (Message) notification;
             if(poruka.getType().equals(MessageTypes.ERROR))JOptionPane.showMessageDialog(null,poruka.getText(),"ERROR",JOptionPane.ERROR_MESSAGE);
-            else if (poruka.getType().equals(MessageTypes.NOTIFICATION)) JOptionPane.showMessageDialog(null,poruka.getPoruka(),"INFORMATION",JOptionPane.INFORMATION_MESSAGE);
+            else if (poruka.getType().equals(MessageTypes.NOTIFICATION)) JOptionPane.showMessageDialog(null,poruka.getText(),"INFORMATION",JOptionPane.INFORMATION_MESSAGE);
             else if (poruka.getType().equals(MessageTypes.WARNING)) JOptionPane.showMessageDialog(null,poruka.getText(),"WARNING",JOptionPane.WARNING_MESSAGE);
         }
     }
